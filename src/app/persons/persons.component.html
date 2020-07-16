@@ -1,4 +1,4 @@
 <p *ngIf="isFetching">Fetching data...</p>
 <ul *ngIf="!isFetching">
-  <li (click)="onRemovePerson(person)" *ngFor="let person of personList">{{person}}</li>
+  <li *ngFor="let person of personList">{{person}}</li>
 </ul>
