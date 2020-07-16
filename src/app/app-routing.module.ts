@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
+import {RouterModule, Routes} from '@angular/router';
 
 import {PersonsComponent} from './persons/persons.component';
 import {PersonInputComponent} from './persons/person-input.component';
