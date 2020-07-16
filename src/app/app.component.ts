@@ -5,10 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  persons = ['Caitlin', 'Nicole', 'Jessica', 'Meghan'];
-
-  onPersonCreated(name: string) {
-    this.persons.push(name);
-  }
-}
+export class AppComponent {}
